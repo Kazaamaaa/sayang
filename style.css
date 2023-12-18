@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    background-image: url('bila.jpeg');
+    background-size: auto;
+    color: white;
+    text-align: center;
+    height: 100vh; /* Adjust the height based on your design */
+}
+
+.title h1 {
+    margin: 0; /* Remove default margin for the text */
+}
+
+.title button {
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
